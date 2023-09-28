@@ -1,0 +1,15 @@
+{
+  "name": "linear-release-notes-builder",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@linear/sdk": "^8.0.0",
+    "openai": "^4.10.0"
+  }
+}
